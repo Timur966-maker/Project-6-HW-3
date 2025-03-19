@@ -131,16 +131,14 @@ select:hover,
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
 display: flex;
 flex-direction: column-reverse;
-
-
-
+gap: 20px;
 }
 
 .skills {
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 20px;
 }
 
 .books-list {
@@ -183,6 +181,8 @@ form {
 
 .btn:hover {
     /* 📍 Стили для кнопки при наведении курсора */
+    background-color: #2965F1;
+    cursor: pointer;
 }
 
 .line {
